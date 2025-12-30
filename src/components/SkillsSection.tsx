@@ -1,8 +1,8 @@
 export const SkillsSection = () => {
   const skills = [
-    { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue.js"] },
-    { category: "Backend", items: ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs"] },
-    { category: "Tools", items: ["Git", "Docker", "Figma", "VS Code", "AWS"] },
+    { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js", "HTML5", "CSS3", "JavaScript", "REST APIs", "Vue.js", "Responsive Design"] },
+    { category: "Backend", items: ["Node.js", "Express.js", "SQL", "Python", "PostgreSQL", "MongoDB"] },
+    { category: "Tools", items: ["Git & GitHub", "Docker", "Figma", "VS Code", "AWS", "TCP/IP Networking", "Windows OS", "IT Troubleshooting", "Linux CLI"] },
   ];
 
   return (

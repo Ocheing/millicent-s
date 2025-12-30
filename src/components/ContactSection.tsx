@@ -1,6 +1,10 @@
 import { Mail, MapPin, Send } from "lucide-react";
 
 export const ContactSection = () => {
+  const email = "ocheingmillicent@gmail.com";
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=Portfolio%20Inquiry&body=Hello%20Millicent,%0A%0AI%20came%20across%20your%20portfolio...`;
+  const mailtoUrl = `mailto:${email}?subject=Portfolio Inquiry`;
+
   return (
     <section id="contact" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
       <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
@@ -18,11 +22,13 @@ export const ContactSection = () => {
 
         <div className="space-y-4 mb-8">
           <a 
-            href="mailto:hello@millicentanyango.com" 
+            href={gmailUrl} 
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
           >
             <Mail className="w-5 h-5 text-primary" />
-            <span className="group-hover:underline">hello@millicentanyango.com</span>
+            <span className="group-hover:underline">ocheingmillicent@gmail.com</span>
           </a>
           <div className="flex items-center gap-3 text-muted-foreground">
             <MapPin className="w-5 h-5 text-primary" />
@@ -31,7 +37,9 @@ export const ContactSection = () => {
         </div>
 
         <a
-          href="mailto:hello@millicentanyango.com"
+          href={gmailUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
         >
           <Send className="w-4 h-4" />

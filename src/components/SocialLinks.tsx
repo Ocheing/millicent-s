@@ -3,12 +3,12 @@ import { Github, Linkedin, Instagram, Mail, Code } from "lucide-react";
 const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com",
+    url: "https:/github.com/Ocheing",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/millicent-anyango-b8b69b29b",
     icon: Linkedin,
   },
   {
@@ -18,8 +18,8 @@ const socialLinks = [
   },
   {
     name: "Email",
-    url: "mailto:millicent@example.com",
-    icon: Mail,
+  url: "https://mail.google.com/mail/?view=cm&fs=1&to=ocheingmillicent@gmail.com",
+  icon: Mail,
   },
   {
     name: "CodePen",

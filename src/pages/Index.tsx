@@ -48,7 +48,8 @@ const Index = () => {
                 className="mt-4 max-w-xs leading-normal text-muted-foreground opacity-0 animate-fade-in"
                 style={{ animationDelay: "0.3s" }}
               >
-                I build accessible, pixel-perfect digital experiences for the web.
+                Junior Software Developer
+Passionate about learning and creating simple, functional software.
               </p>
               
               <div 
@@ -103,7 +104,20 @@ const Index = () => {
             >
               <ContactSection />
             </div>
-            
+
+            <div 
+              className="opacity-0 animate-fade-in-right"
+              style={{ animationDelay: "0.5s" }}
+            >
+              <ProjectsSection />
+            </div>
+
+             <div
+              className="opacity-0 animate-fade-in"
+              style={{ animationDelay: "0.5s" }}
+            >
+              <SocialLinks />
+            </div>
             <div 
               className="opacity-0 animate-fade-in-right"
               style={{ animationDelay: "0.8s" }}

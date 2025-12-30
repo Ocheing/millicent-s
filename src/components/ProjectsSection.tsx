@@ -79,7 +79,7 @@ export const ProjectsSection = () => {
         ))}
       </div>
       <a
-        href="#"
+        href="https:/github.com/Ocheing"
         className="inline-flex items-center gap-2 mt-8 text-foreground font-medium hover:text-primary transition-colors duration-300 group"
       >
         View All Projects

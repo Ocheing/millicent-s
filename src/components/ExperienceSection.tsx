@@ -2,24 +2,24 @@ import { ArrowUpRight } from "lucide-react";
 
 const experiences = [
   {
-    period: "2023 — Present",
-    title: "Senior Software Developer",
-    company: "Tech Innovations Ltd",
-    companyUrl: "#",
+    period: "April 2025- October 2025",
+    title: "Web Developer volunteer",
+    company: "Hekima Organization,Tanzania",
+    companyUrl: "https://hekima-black.vercel.app/",
     description:
-      "Build and maintain critical components used to construct the company's frontend and backend systems. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in software development.",
-    skills: ["TypeScript", "React", "Node.js", "PostgreSQL", "AWS"],
+      "Collaborating in Designing and developing a responsive web platform using modern web technologies. Collaborating with a remote team on UI/UX design, layout implementation, and version control while supporting the transition to a React-based architecture.",
+    skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Responsive Design", "Git & GitHub", "UI/UX", "Remote Collaboration"],
   },
   {
-    period: "2021 — 2023",
-    title: "Full Stack Developer",
-    company: "Digital Solutions Africa",
-    companyUrl: "#",
+    period: "May 2023- August 2023",
+    title: "ICT Attatchee ",
+    company: "Kisii Teaching and Referral Hospital",
+    companyUrl: "https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TKqKNzTLy7EwYLRSNagwtDBKMk5KMzNNSzNOSjVMsTKoMLIwSTY0STG3NDBKtExJSvHiyi4pylDIzizOzAQAbEwTcQ&q=ktrh+kisii&oq=ktrh&gs_lcrp=EgZjaHJvbWUqDQgBEC4YrwEYxwEYgAQyCQgAEEUYORiABDINCAEQLhivARjHARiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg90gEJMTE3MjlqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8",
     description:
-      "Developed and shipped high-quality web applications, design systems, and digital products for a diverse array of projects. Provided technical leadership through close collaboration and spearheading the development of internal tools.",
-    skills: ["JavaScript", "React", "Python", "Django", "Docker"],
+     "Provided comprehensive technical support for computer hardware, network printers, and authorized software systems. Configured workstations, assisted users with daily technical issues, monitored system uptime, and participated in user account management while ensuring secure data practices.",
+    skills: ["Technical Support", "Hardware Troubleshooting", "Network Maintenance", "System Administration", "User Support", "Data Security", "IT Infrastructure", "Windows OS"],
   },
-  {
+  /*{
     period: "2019 — 2021",
     title: "Frontend Developer",
     company: "StartUp Hub Nairobi",
@@ -27,7 +27,7 @@ const experiences = [
     description:
       "Collaborated with designers and product teams to build responsive, accessible web interfaces. Implemented modern frontend architectures and contributed to improving development workflows.",
     skills: ["HTML & CSS", "JavaScript", "Vue.js", "Tailwind CSS", "Git"],
-  },
+  },*/
 ];
 
 export const ExperienceSection = () => {
@@ -74,7 +74,9 @@ export const ExperienceSection = () => {
         ))}
       </div>
       <a
-        href="#"
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center gap-2 mt-8 text-foreground font-medium hover:text-primary transition-colors duration-300 group"
       >
         View Full Résumé

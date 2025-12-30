@@ -19,7 +19,7 @@ export const Footer = () => {
           <div className="animate-bounce-slow">
             <Home className="w-6 h-6" />
           </div>
-          <span className="font-medium text-base">View All My Portfolios</span>
+          <span className="font-medium text-base"></span>
         </a>
       </div>
     </footer>

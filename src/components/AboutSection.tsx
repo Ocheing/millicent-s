@@ -5,30 +5,57 @@ export const AboutSection = () => {
         About
       </h2>
       <div className="space-y-4 text-muted-foreground leading-relaxed">
-        <p>
-          I'm a software developer passionate about crafting accessible, pixel-perfect 
-          digital experiences. My favorite work lies at the intersection of design and 
-          development, creating solutions that not only look great but are meticulously 
-          built for performance and usability.
-        </p>
-        <p>
-          Currently, I specialize in building robust web applications using modern 
-          technologies. I contribute to creating and maintaining UI components and 
-          full-stack solutions, ensuring platforms meet the highest standards of 
-          quality and user experience.
-        </p>
-        <p>
-          I've had the opportunity to develop software across a variety of settings — 
-          from{" "}
-          <span className="text-primary font-medium">startups</span> and{" "}
-          <span className="text-primary font-medium">tech companies</span> to{" "}
-          <span className="text-primary font-medium">freelance projects</span> and{" "}
-          <span className="text-primary font-medium">open-source contributions</span>.
-        </p>
-        <p>
-          When I'm not at the computer, I'm usually exploring new technologies, 
-          mentoring aspiring developers, or enjoying time with family and friends.
-        </p>
+       <p>
+  I'm an aspiring <strong>Full-Stack Web Developer</strong> with a background in{" "}
+  <strong>Software Engineering</strong>, combining skills in{" "}
+  <span className="text-primary font-medium">IT support</span>,{" "}
+  <span className="text-primary font-medium">web development</span>, and{" "}
+  <span className="text-primary font-medium">digital solutions</span>. I enjoy using
+  technology to solve problems, improve systems, and create user-friendly digital
+  experiences.
+</p>
+
+<p>
+  My technical skills include{" "}
+  <span className="text-primary font-medium">HTML</span>,{" "}
+  <span className="text-primary font-medium">CSS</span>,{" "}
+  <span className="text-primary font-medium">JavaScript</span>,{" "}
+  <span className="text-primary font-medium">React</span>,{" "}
+  <span className="text-primary font-medium">Node.js</span>,{" "}
+  <span className="text-primary font-medium">Python</span>, and{" "}
+  <span className="text-primary font-medium">MySQL</span>. I'm also familiar with{" "}
+  <span className="text-primary font-medium">API integration</span>,{" "}
+  <span className="text-primary font-medium">MongoDB</span>, and{" "}
+  <span className="text-primary font-medium">networking fundamentals</span>.
+</p>
+
+<p>
+  I have hands-on experience with{" "}
+  <span className="text-primary font-medium">troubleshooting</span>,{" "}
+  <span className="text-primary font-medium">device setup</span>,{" "}
+  <span className="text-primary font-medium">system support</span>, and working with
+  tools like{" "}
+  <span className="text-primary font-medium">Git</span> and{" "}
+  <span className="text-primary font-medium">VS Code</span>.
+</p>
+
+<p>
+  I'm passionate about how{" "}
+  <span className="text-primary font-medium">AI</span> and{" "}
+  <span className="text-primary font-medium">data</span> can make technology smarter
+  and more intuitive. I’m actively building projects, learning new tools, and seeking
+  opportunities to collaborate and grow as a developer.
+</p>
+
+<p>
+  Outside of coding, I enjoy exploring{" "}
+  <span className="text-primary font-medium">design principles</span>, keeping up with{" "}
+  <span className="text-primary font-medium">tech trends</span>, and learning more
+  about{" "}
+  <span className="text-primary font-medium">machine learning</span>. I'm excited to
+  keep building, improving, and contributing to meaningful digital solutions.
+</p>
+
       </div>
     </section>
   );

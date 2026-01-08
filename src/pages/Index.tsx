@@ -105,12 +105,7 @@ Passionate about learning and creating simple, functional software.
               <ContactSection />
             </div>
 
-            <div 
-              className="opacity-0 animate-fade-in-right"
-              style={{ animationDelay: "0.5s" }}
-            >
-              <ProjectsSection />
-            </div>
+            
 
              <div
               className="opacity-0 animate-fade-in"

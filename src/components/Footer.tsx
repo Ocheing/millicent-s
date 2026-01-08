@@ -12,16 +12,18 @@ export const Footer = () => {
       
       {/* Animated portfolio link with bouncing icon */}
       <div className="border-t border-border/30 pt-6">
-        <a 
-          href="#portfolios" 
-          className="group inline-flex items-center gap-3 text-primary hover:text-primary/80 transition-colors"
-        >
-          <div className="animate-bounce-slow">
-            <Home className="w-6 h-6" />
-          </div>
-          <span className="font-medium text-base"></span>
-        </a>
-      </div>
+  <a 
+    href="https://ocheing-millicent.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group inline-flex items-center gap-3 text-primary hover:text-primary/80 transition-colors"
+  >
+    <div className="animate-bounce-slow">
+      <Home className="w-6 h-6" />
+    </div>
+    <span className="font-medium text-base"></span>
+  </a>
+</div>
     </footer>
   );
 };

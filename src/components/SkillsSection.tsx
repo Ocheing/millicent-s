@@ -2,6 +2,8 @@ export const SkillsSection = () => {
   const skills = [
     { category: "Frontend", items: ["React", "TypeScript", "Tailwind CSS", "Next.js", "HTML5", "CSS3", "JavaScript", "REST APIs", "Vue.js", "Responsive Design"] },
     { category: "Backend", items: ["Node.js", "Express.js", "SQL", "Python", "PostgreSQL", "MongoDB"] },
+     { category: "APIs", items: ["RESTful APIs (Fetch API, Axios)"] },
+      { category: "IT Support", items: [ "Troubleshooting" , "Device Setup", "User Support Windows OS", "Basic Linux", "TCP/IP", "DNS", "DHCP", "VPN"] },
     { category: "Tools", items: ["Git & GitHub", "Docker", "Figma", "VS Code", "AWS", "TCP/IP Networking", "Windows OS", "IT Troubleshooting", "Linux CLI"] },
   ];
 

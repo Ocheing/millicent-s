@@ -19,6 +19,25 @@ const projects = [
     github: "https://github.com/Ocheing/Trinity.git"
   },
   {
+    title: "Creator Connect Hub (MicroMatch)",
+    description: "Creator Connect Hub (MicroMatch) is a full-stack micro-influencer marketing platform that connects brands with authentic creators (1K–10K followers) for impactful and data-driven marketing campaigns. The platform features secure authentication, role-based dashboards, real-time updates, campaign management, protected routes, and a modern animated UI. It demonstrates scalable architecture using Supabase backend services, efficient state management with React Query, and a clean component-driven design system.",
+    url: "https://creator-connect-hub-one.vercel.app/",
+    image: "/assets/creatorconnecthub.jpg",
+    skills: [
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Supabase",
+      "PostgreSQL",
+      "React Router v6",
+      "TanStack React Query",
+      "Framer Motion"
+    ],
+    github: "https://github.com/Ocheing/creator-connect-hub.git"
+  },
+  {
     title: "Movie Finder",
     description: "Movie Finder is a sleek, responsive web application that lets users search and explore movies in real-time using the TMDb (The Movie Database) API. It provides live access to movie posters, titles, ratings, release dates, and descriptions. Built to showcase real-time API integration and smooth user interaction through a clean UI.",
     url: "https://moviefinder-4438a9.netlify.app/",

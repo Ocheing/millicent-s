@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
 
 const projects = [
@@ -11,18 +12,18 @@ const projects = [
   },
 
   {
-    title: "Trinity Drivig School Website",
+    title: "Trinity Driving School Website",
     description: "A modern, responsive, and interactive website built for Trinity Driving School to provide an engaging online experience for prospective students. The site features an immersive 3D hero section using Three.js, smooth scroll animations, and a polished glassmorphism UI.",
-    url: "https://trinityds.vercel.app/",
-    image: "/assets/trinityds.jpg",
-    skills: ["HTML5 & CSS3", "JavaScript (ES6+)", "Three.js (r128)", "Google Fonts (Inter)", "FontAwesome"],
+    url: "https://trinity-driving.vercel.app/",
+    image: "/assets/tds.jpg",
+    skills: ["Next.js 15 (App Router)", "Tailwind CSS v4", "Supabase (PostgreSQL)", "Supabase Auth", "Lucide React"],
     github: "https://github.com/Ocheing/Trinity.git"
   },
   {
     title: "Creator Connect Hub (MicroMatch)",
     description: "Creator Connect Hub (MicroMatch) is a full-stack micro-influencer marketing platform that connects brands with authentic creators (1K–10K followers) for impactful and data-driven marketing campaigns. The platform features secure authentication, role-based dashboards, real-time updates, campaign management, protected routes, and a modern animated UI. It demonstrates scalable architecture using Supabase backend services, efficient state management with React Query, and a clean component-driven design system.",
     url: "https://creator-connect-hub-one.vercel.app/",
-    image: "/assets/creatorconnecthub.jpg",
+    image: "/assets/micromatch.jpg",
     skills: [
       "React 18",
       "TypeScript",
@@ -114,15 +115,13 @@ export const ProjectsSection = () => {
           </a>
         ))}
       </div>
-      <a
-        href="https://github.com/Ocheing" // Fixed: Added missing "https://"
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        to="/projects"
         className="inline-flex items-center gap-2 mt-8 text-foreground font-medium hover:text-primary transition-colors duration-300 group"
       >
-        View All Projects
+        View Full Project Archive
         <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" />
-      </a>
+      </Link>
     </section>
   );
 };

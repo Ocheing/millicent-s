@@ -54,6 +54,30 @@ const archiveProjects: ProjectArchiveItem[] = [
   },
   {
     year: "2025",
+    title: "TembeaSave - Travel Savings Application",
+    madeAt: "Personal Project",
+    builtWith: [
+      "React.js",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "React Query",
+      "React Router",
+      "Supabase Authentication",
+      "Google OAuth",
+      "Gemini AI",
+      "Responsive Design",
+      "Git & GitHub",
+    ],
+    url: "https://t-save-frontend.vercel.app/",
+    github: "https://github.com/Ocheing/T-SAVE-FRONTEND",
+    description:
+      "A modern travel savings platform that helps users plan, save towards travel goals, explore destinations, manage bookings, and access an AI-powered travel assistant. Features secure authentication, personalized user dashboards, and a dedicated admin panel for managing users, destinations, and platform analytics.",
+  },
+  {
+    year: "2025",
     title: "Hekima Organization Platform",
     madeAt: "Hekima Organization",
     builtWith: [

@@ -1,4 +1,5 @@
 import { Home } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -12,17 +13,15 @@ export const Footer = () => {
       
       {/* Animated portfolio link with bouncing icon */}
       <div className="border-t border-border/30 pt-6">
-  <a 
-    href="https://ocheing-millicent.netlify.app/"
-    target="_blank"
-    rel="noopener noreferrer"
+  <Link 
+    to="/"
     className="group inline-flex items-center gap-3 text-primary hover:text-primary/80 transition-colors"
   >
     <div className="animate-bounce-slow">
       <Home className="w-6 h-6" />
     </div>
     <span className="font-medium text-base"></span>
-  </a>
+  </Link>
 </div>
     </footer>
   );

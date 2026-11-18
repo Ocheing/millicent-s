@@ -26,7 +26,7 @@ const archiveProjects: ProjectArchiveItem[] = [
       "Supabase Auth",
       "Lucide React",
     ],
-    url: "https://trinityds.vercel.app/",
+    url: "https://trinity-driving.vercel.app/",
     github: "https://github.com/Ocheing/Trinity.git",
     description:
       "Interactive driving school website with an immersive 3D hero section using Three.js and glassmorphic UI.",
